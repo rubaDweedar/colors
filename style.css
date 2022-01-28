@@ -1,0 +1,110 @@
+input, button, submit { border:none; }
+ul a{
+    text-decoration:none;
+    color: gray;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.logo{
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav ul li{
+    display: inline;
+    flex-grow:1;
+}
+body{
+    padding:0px ;
+    margin: 0px;
+}
+header{
+    background-color: white;
+    padding: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+nav ul{
+    display: flex;
+}
+nav{
+    flex-grow:5;
+}
+header div{
+    display: flex;
+}
+.logo-img{
+width: 300px;
+margin-right: 250px;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-top: 100px;
+}
+.para{
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+.btn{
+    display: block;
+    background-color: rgb(117, 117, 117);
+    color: white;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom:70px ;
+}
+.card{
+    width: 270px;
+    background-color: white;
+    padding: 10px;
+    padding-top: 50px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    flex-grow: 1;
+}
+.card p{
+    color: grey;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.card img{
+    display: block;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.card div{
+    color: grey;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+.cards{
+    display: flex;
+    margin-left: 250px;
+    margin-right: 250px;
+
+}
+.fun{
+    width: 100%;
+    height: 550px;
+    display: inline-block;
+    background-color: grey;
+}
